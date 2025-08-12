@@ -1,0 +1,101 @@
+### YamlMime:Landing
+title: Configure Windows client
+summary: Learn how to apply custom configurations to Windows client devices.
+
+metadata:
+  title: Configure Windows client
+  description: Learn how to apply custom configurations to Windows client devices.
+  ms.topic: landing-page
+  ms.collection:
+    - tier1
+  author: paolomatarazzo
+  ms.author: paoloma
+  manager: bpardi
+  ms.date: 12/05/2024
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+
+  - title: Customize the appearance
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Configure the Start menu
+            url: start/index.md
+          - text: Customize the Taskbar
+            url: taskbar/index.md
+          - text: Configure Windows spotlight
+            url: windows-spotlight/index.md
+          - text: Accessibility information for IT pros
+            url: accessibility/index.md
+      - linkListType: reference
+        links:
+          - text: Start policy settings
+            url: start/policy-settings.md
+
+  - title: Kiosks and restricted user experiences
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Kiosk options in Windows
+            url: kiosk/index.md
+          - text: What is Assigned Access?
+            url: assigned-access/index.md
+          - text: What is Shell Launcher?
+            url: shell-launcher/index.md
+      - linkListType: quickstart
+        links:
+          - text: Configure a kiosk with Assigned Access
+            url: assigned-access/quickstart-kiosk.md
+          - text: Configure a kiosk with Shell Launcher
+            url: shell-launcher/quickstart-kiosk.md
+          - text: Configure a restricted user experience with Assigned Access
+            url: assigned-access/quickstart-restricted-user-experience.md
+      - linkListType: reference
+        links:
+          - text: Assigned Access XML Schema Definition (XSD)
+            url: assigned-access/xsd.md
+          - text: Shell Launcher XML Schema Definition (XSD)
+            url: shell-launcher/xsd.md
+
+  - title: Configure shared devices
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Shared devices concepts
+            url: /windows/configuration/shared-pc/shared-devices-concepts
+      - linkListType: how-to-guide
+        links:
+          - text: Configure a shared or guest Windows device
+            url: /windows/configuration/shared-pc/set-up-shared-or-guest-pc
+      - linkListType: reference
+        links:
+          - text: Shared PC technical reference
+            url: /windows/configuration/shared-pc/shared-pc-technical
+
+  - title: Use provisioning packages
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Provisioning packages overview
+            url: provisioning-packages/provisioning-packages.md
+          - text: Install Windows Configuration Designer
+            url: provisioning-packages/provisioning-install-icd.md
+          - text: Create a provisioning package
+            url: provisioning-packages/provisioning-create-package.md
+          - text: Apply a provisioning package
+            url: provisioning-packages/provisioning-apply-package.md
+
+  - title: Use Windows Configuration Designer (WCD)
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Windows Configuration Designer (WCD) reference
+            url: wcd/wcd.md
+          - text: Policies
+            url: wcd/wcd-policies.md
+          - text: ProvisioningCommands
+            url: wcd/wcd-provisioningcommands.md
+          - text:  Accounts
+            url: wcd/wcd-accounts.md

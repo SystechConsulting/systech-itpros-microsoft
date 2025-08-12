@@ -1,0 +1,45 @@
+items:
+- name: Overview
+  href: index.md
+- name: How Windows Hello for Business works
+  items:
+    - name: Core concepts
+      href: how-it-works.md
+    - name: How device registration works 🔗
+      href: /entra/identity/devices/device-registration-how-it-works
+    - name: How provisioning works
+      href: how-it-works-provisioning.md
+    - name: How authentication works
+      href: how-it-works-authentication.md
+- name: Configure Windows Hello for Business
+  href: configure.md
+- name: Deployment guides
+  href: deploy/toc.yml
+- name: How-to guides
+  items:
+  - name: Configure PIN reset
+    href: pin-reset.md
+  - name: Configure dual enrollment
+    href: dual-enrollment.md
+  - name: Configure dynamic lock
+    href: hello-feature-dynamic-lock.md
+  - name: Configure multi-factor unlock
+    href: multifactor-unlock.md
+  - name: Configure remote desktop (RDP) sign-in
+    href: rdp-sign-in.md
+- name: Troubleshooting
+  items:
+  - name: Known deployment issues
+    href: hello-deployment-issues.md
+  - name: Errors during PIN creation
+    href: hello-errors-during-pin-creation.md
+- name: Reference
+  items:
+  - name: Windows Hello for Business policy settings
+    href: policy-settings.md
+  - name: WebAuthn APIs
+    href: webauthn-apis.md
+  - name: Windows Hello Enhanced Security Sign-in (ESS) 🔗
+    href: /windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security
+  - name: Frequently Asked Questions (FAQ)
+    href: faq.yml

@@ -1,0 +1,173 @@
+### YamlMime:Hub
+
+title: Windows client documentation
+summary: Documentation for IT pros on how to deploy, secure, and manage Windows clients for your organization.
+brand: windows
+
+metadata:
+  title: Windows client documentation
+  description: Documentation for IT pros on how to deploy, secure, and manage Windows clients for your organization.
+  ms.topic: hub-page
+  ms.service: windows-client
+  ms.collection:
+    - tier1
+    - essentials-navigation
+  author: blokpardi
+  ms.author: bpardi
+  manager: bpardi
+  ms.date: 10/01/2024
+
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | training | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+
+  - title: Get started with Windows 11
+    itemType: get-started
+    url: /windows/whats-new/windows-11-overview
+
+  - title: Windows 11, version 24H2
+    itemType: whats-new
+    url: /windows/whats-new/whats-new-windows-11-version-24h2
+
+  - title: Windows 11, version 24H2 group policy settings reference
+    itemType: download
+    url: https://www.microsoft.com/download/details.aspx?id=106255
+
+  - title: Windows administrative tools
+    itemType: concept
+    url: /windows/client-management/client-tools/administrative-tools-in-windows
+
+
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | training | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    - title: Deploy Windows
+      links:
+      - url: /autopilot/
+        itemType: deploy
+        text: Windows Autopilot
+      - url: /windows/deployment/windows-autopatch
+        itemType: overview
+        text: Windows Autopatch
+      - url: /windows/deployment/do/
+        itemType: concept
+        text: Delivery optimization
+      footerLink:
+        url: /windows/deployment
+        text: See more
+
+    - title: Secure Windows
+      links:
+      - url: /windows/security/introduction
+        itemType: overview
+        text: Introduction to Windows security
+      - url: /windows/security/operating-system-security/data-protection/bitlocker/
+        itemType: concept
+        text: BitLocker
+      - url: /windows/security/identity-protection/hello-for-business
+        itemType: concept
+        text: Windows Hello for Business
+      footerLink:
+        url: /windows/security
+        text: See more
+
+    - title: Privacy in Windows
+      links:
+      - url: /windows/privacy/required-diagnostic-events-fields-windows-11-24h2
+        itemType: reference
+        text: Windows 11 required diagnostic data
+      - url: /windows/privacy/configure-windows-diagnostic-data-in-your-organization
+        itemType: how-to-guide
+        text: Configure Windows diagnostic data in your organization
+      - url: /windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
+        itemType: reference
+        text: Manage connections to Microsoft services
+      footerLink:
+        url: /windows/privacy
+        text: See more
+
+    - title: Manage Windows
+      links:
+      - url: /windows/client-management/client-tools/administrative-tools-in-windows
+        itemType: concept
+        text: Windows administrative tools
+      - url: /windows/client-management/client-tools/windows-version-search
+        itemType: how-to-guide
+        text: What version of Windows am I running?
+      - url: /windows/client-management/mdm/
+        itemType: reference
+        text: Configuration Service Provider (CSP) policies
+      footerLink:
+        url: /windows/client-management
+        text: See more
+
+    - title: Configure Windows
+      links:
+      - url: /windows/configuration/accessibility/
+        itemType: overview
+        text: Accessibility information
+      - url: /windows/configuration/start/layout
+        itemType: how-to-guide
+        text: Customize the Start layout
+      - url: /windows/configuration/assigned-access
+        itemType: concept
+        text: Kiosks and restricted user experiences
+      footerLink:
+        url: /windows/configuration
+        text: See more
+
+    - title: Windows for Education
+      links:
+      - url: /education/windows/federated-sign-in
+        itemType: how-to-guide
+        text: Configure federated sign-in for Windows devices
+      - url: /education/windows/get-minecraft-for-education
+        itemType: concept
+        text: Get and deploy Minecraft Education
+      - url: /education/windows/windows-11-se-overview
+        itemType: overview
+        text: Windows 11 SE
+      footerLink:
+        url: /education/windows
+        text: See more
+
+additionalContent:
+  sections:
+    - title: More Windows resources
+      items:
+
+        - title: Windows hardware
+          links:
+            - text: Download and install the Windows ADK
+              url: /windows-hardware/get-started/adk-install
+            - text: Download the Windows Driver Kit
+              url: /windows-hardware/drivers/download-the-wdk
+            - text: Device and driver installation
+              url: /windows-hardware/drivers/install/overview-of-device-and-driver-installation
+
+        - title: Windows Server
+          links:
+            - text: Windows Server documentation
+              url: /windows-server
+            - text: What's new in Windows Server 2025
+              url: /windows-server/get-started/whats-new-windows-server-2025
+            - text: Windows Server blog
+              url: https://www.microsoft.com/windows-server/blog/
+
+        - title: Windows product site and blogs
+          links:
+            - text: Windows user documentation
+              url: https://support.microsoft.com/windows
+            - text: Windows blogs
+              url: https://blogs.windows.com/
+            - text: Windows IT Pro blog
+              url: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/bg-p/Windows-ITPro-blog
+
+        - title: Participate in the community
+          links:
+            - text: Windows community
+              url: https://techcommunity.microsoft.com/t5/windows/ct-p/Windows
+            - text: Windows office hours
+              url: https://aka.ms/Windows/OfficeHours
+            - text: Microsoft support community
+              url: https://answers.microsoft.com/

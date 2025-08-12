@@ -1,0 +1,19 @@
+items:
+- name: Smart App Control
+  href: app-control-for-business/appcontrol.md
+- name: App Control for Business
+  href: app-control-for-business/appcontrol.md
+- name: App Control for Business and virtualization-based protection of code integrity
+  href: introduction-to-virtualization-based-security-and-appcontrol.md
+- name: User Account Control (UAC)
+  items:
+  - name: Overview
+    href: user-account-control/index.md
+  - name: UAC Architecture
+    href: user-account-control/architecture.md
+  - name: How UAC works
+    href: user-account-control/how-it-works.md
+  - name: UAC settings and configuration
+    href: user-account-control/settings-and-configuration.md
+- name: Microsoft Vulnerable Driver Blocklist
+  href: app-control-for-business/design/microsoft-recommended-driver-block-rules.md

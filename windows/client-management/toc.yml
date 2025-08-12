@@ -1,0 +1,87 @@
+items:
+  - name: Windows client management
+    href: index.yml
+    items:
+      - name: Mobile device management (MDM)
+        expanded: true
+        items:
+          - name: MDM overview
+            expanded: true
+            items:
+              - name: What is MDM?
+                href: mdm-overview.md
+              - name: What's new in MDM
+                href: new-in-windows-mdm-enrollment-management.md
+              - name: Microsoft Entra integration
+                href: azure-active-directory-integration-with-mdm.md
+              - name: Transitioning to modern management
+                href: manage-windows-10-in-your-organization-modern-management.md
+              - name: Push notification support
+                href: push-notification-windows-mdm.md
+              - name: MAM support
+                href: implement-server-side-mobile-application-management.md
+          - name: Enroll devices
+            expanded: false
+            items:
+              - name: Enrollment overview
+                href: mobile-device-enrollment.md
+              - name: Manual enrollment
+                href: mdm-enrollment-of-windows-devices.md
+              - name: Automatic enrollment
+                href: azure-ad-and-microsoft-intune-automatic-mdm-enrollment-in-the-new-portal.md
+              - name: Group policy enrollment
+                href: enroll-a-windows-10-device-automatically-using-group-policy.md
+              - name: Bulk enrollment
+                href: bulk-enrollment-using-windows-provisioning-tool.md
+              - name: Federated authentication enrollment
+                href: federated-authentication-device-enrollment.md
+              - name: Certificate authentication enrollment
+                href: certificate-authentication-device-enrollment.md
+              - name: On-premises authentication enrollment
+                href: on-premise-authentication-device-enrollment.md
+          - name: Manage devices
+            expanded: false
+            items:
+              - name: Manage settings
+                href: windows-mdm-enterprise-settings.md
+              - name: Manage apps
+                href: enterprise-app-management.md
+              - name: Manage updates
+                href: device-update-management.md
+              - name: Secured-Core PC Configuration Lock
+                href: config-lock.md
+              - name: Certificate renewal
+                href: certificate-renewal-windows-mdm.md
+              - name: eSIM management
+                href: esim-enterprise-management.md
+          - name: Manage Windows AI
+            expanded: true
+            items:
+              - name: Manage Click to Do
+                href: manage-click-to-do.md
+              - name: Manage Recall
+                href: manage-recall.md
+              - name: Reference for sensitive information filtering in Recall
+                href: recall-sensitive-information-filtering.md
+              - name: Manage Notepad
+                href: manage-notepad.md
+              - name: Updated Windows and Microsoft 365 Copilot Chat experience
+                href: manage-windows-copilot.md
+          - name: Diagnose MDM failures
+            expanded: false
+            items:
+              - name: Collect MDM logs
+                href: mdm-collect-logs.md
+              - name: Diagnose MDM enrollment
+                href: mdm-diagnose-enrollment.md
+              - name: Known issues
+                href: mdm-known-issues.md
+          - name: Unenroll devices
+            href: disconnecting-from-mdm-unenrollment.md
+          - name: Configuration service provider reference
+            href: mdm/index.yml
+      - name: Client management tools and settings
+        expanded: true
+        href: client-tools/toc.yml
+      - name: Troubleshoot Windows clients
+        href: /troubleshoot/windows-client/welcome-windows-client

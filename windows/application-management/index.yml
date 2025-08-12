@@ -1,0 +1,42 @@
+### YamlMime:Landing
+
+title: Windows application management
+summary: Learn about managing applications in Windows client, including common app types.
+
+metadata:
+  title: Windows application management
+  description: Learn about managing applications in Windows client.
+  author: vinaypamnani-msft
+  ms.author: vinpa
+  manager: bpardi
+  ms.date: 09/27/2024
+  ms.topic: landing-page
+  ms.service: windows-client
+  ms.subservice: itpro-apps
+  ms.collection:
+    - tier1
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | tutorial | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+  - title: Manage applications
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Overview of apps in Windows
+            url: overview-windows-apps.md
+          - text: Add or hide Windows features
+            url: add-apps-and-features.md
+          - text: Sideload LOB apps
+            url: sideload-apps-in-windows-10.md
+          - text: Keep removed apps from returning during an update
+            url: remove-provisioned-apps-during-update.md
+
+  - title: Manage services
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Per-user services in Windows
+            url: per-user-services-in-windows.md
+          - text: Changes to Service Host grouping in Windows 10
+            url: svchost-service-refactoring.md

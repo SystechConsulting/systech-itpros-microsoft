@@ -1,0 +1,132 @@
+- name: Windows Autopatch
+  href: index.yml
+  items:
+    - name: Overview
+      href: 
+      items:
+        - name: What is Windows Autopatch?
+          href: overview/windows-autopatch-overview.md
+        - name: Privacy
+          href: overview/windows-autopatch-privacy.md
+        - name: FAQ
+          href: overview/windows-autopatch-faq.yml
+    - name: Prepare
+      href: 
+      items: 
+        - name: Prerequisites
+          href: prepare/windows-autopatch-prerequisites.md
+        - name: Role-based access control
+          href: prepare/windows-autopatch-role-based-access-control.md
+        - name: Configure your network
+          href: prepare/windows-autopatch-configure-network.md
+        - name: Start using Windows Autopatch
+          href: prepare/windows-autopatch-start-using-autopatch.md
+          items:
+    - name: Deploy
+      href: 
+      items:
+        - name: Device registration
+          href:
+          items:
+            - name: Autopatch groups overview
+              href: deploy/windows-autopatch-groups-overview.md
+            - name: Autopatch groups registration overview
+              href: deploy/windows-autopatch-device-registration-overview.md
+            - name: Register devices with Autopatch groups
+              href: deploy/windows-autopatch-register-devices.md
+            - name: Post-device registration readiness checks
+              href: deploy/windows-autopatch-post-reg-readiness-checks.md
+    - name: Manage
+      href: 
+      items:
+        - name: Release schedule
+          href: manage/windows-autopatch-release-schedule.md
+        - name: Update rings
+          href: manage/windows-autopatch-update-rings.md
+        - name: Windows Autopatch groups
+          href: manage/windows-autopatch-manage-autopatch-groups.md
+          items:
+            - name: Windows Autopatch group policies
+              href: manage/windows-autopatch-groups-policies.md
+        - name: Windows feature updates
+          href: manage/windows-autopatch-windows-feature-update-overview.md
+          items:
+            - name: Programmatic controls for Windows feature updates
+              href: manage/windows-autopatch-windows-feature-update-programmatic-controls.md
+        - name: Windows quality updates
+          href: manage/windows-autopatch-windows-quality-update-overview.md
+          items:
+            - name: Windows quality update end user experience
+              href: manage/windows-autopatch-windows-quality-update-end-user-exp.md
+            - name: Windows quality update policies
+              href: manage/windows-autopatch-windows-update-policies.md
+            - name: Programmatic controls for expedited Windows quality updates
+              href: manage/windows-autopatch-windows-quality-update-programmatic-controls.md
+            - name: Hotpatch updates
+              href: manage/windows-autopatch-hotpatch-updates.md
+        - name: Driver and firmware updates
+          href: manage/windows-autopatch-manage-driver-and-firmware-updates.md
+          items:
+            - name: Programmatic controls for driver and firmware updates
+              hreF: manage/windows-autopatch-driver-and-firmware-update-programmatic-controls.md
+        - name: Microsoft 365 Apps for enterprise
+          href: manage/windows-autopatch-microsoft-365-apps-enterprise.md
+          items:
+            - name: Microsoft 365 Apps for enterprise update policies
+              href: manage/windows-autopatch-microsoft-365-policies.md
+        - name: Microsoft Edge
+          href: manage/windows-autopatch-edge.md
+        - name: Microsoft Teams
+          href: manage/windows-autopatch-teams.md
+        - name: Submit a support request
+          href: manage/windows-autopatch-support-request.md
+        - name: Exclude a device
+          href: manage/windows-autopatch-exclude-device.md
+        - name: Troubleshoot programmatic controls
+          href: manage/windows-autopatch-troubleshoot-programmatic-controls.md
+    - name: Monitor
+      href:
+      items:
+        - name: Windows feature and quality update reports overview
+          href: monitor/windows-autopatch-windows-quality-and-feature-update-reports-overview.md
+          items:
+            - name: Windows feature update reports
+              href:
+              items:
+                - name: Summary dashboard
+                  href: monitor/windows-autopatch-windows-feature-update-summary-dashboard.md
+                - name: Feature update status report
+                  href: monitor/windows-autopatch-windows-feature-update-status-report.md
+                - name: Feature update trending report
+                  href: monitor/windows-autopatch-windows-feature-update-trending-report.md
+            - name: Windows quality update reports
+              href:
+              items:
+                - name: Summary dashboard
+                  href: monitor/windows-autopatch-windows-quality-update-summary-dashboard.md
+                - name: Quality update status report
+                  href: monitor/windows-autopatch-windows-quality-update-status-report.md
+                - name: Quality update trending report
+                  href: monitor/windows-autopatch-windows-quality-update-trending-report.md
+                - name: Hotpatch quality update report
+                  href: monitor/windows-autopatch-hotpatch-quality-update-report.md
+            - name: Windows feature and quality update device alerts
+              href: monitor/windows-autopatch-device-alerts.md
+        - name: Maintain the Windows Autopatch environment
+          href: monitor/windows-autopatch-maintain-environment.md
+    - name: References
+      href:
+      items:
+        - name: Conflicting configurations
+          href: references/windows-autopatch-conflicting-configurations.md
+    - name: What's new
+      href:
+      items:
+        - name: What's new 2025
+          href: whats-new/windows-autopatch-whats-new-2025.md
+        - name: What's new 2024
+          href: whats-new/windows-autopatch-whats-new-2024.md
+        - name: What's new 2023
+          href: whats-new/windows-autopatch-whats-new-2023.md
+        - name: What's new 2022
+          href: whats-new/windows-autopatch-whats-new-2022.md

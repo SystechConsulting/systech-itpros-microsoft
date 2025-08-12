@@ -1,0 +1,76 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/**/*.md",
+          "**/**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/**/*.png",
+          "**/**/*.jpg",
+          "**/*.svg",
+          "**/**/*.gif"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "recommendations": true,
+      "adobe-target": true,
+      "ms.collection": [
+        "tier2"
+      ],
+      "zone_pivot_group_filename": "resources/zone-pivot-groups.json",
+      "breadcrumb_path": "/windows/resources/breadcrumb/toc.json",
+      "uhfHeaderId": "MSDocsHeader-Windows",
+      "feedback_system": "Standard",
+      "feedback_product_url": "https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332",
+      "_op_documentIdPathDepotMapping": {
+        "./": {
+          "depot_name": "MSDN.win-whats-new",
+          "folder_relative_path_in_docset": "./"
+        }
+      },
+      "contributors_to_exclude": [
+        "dstrome2",
+        "rjagiewich",
+        "American-Dipper",
+        "claydetels19",
+        "jborsecnik",
+        "v-stchambers",
+        "shdyas",
+        "Stacyrch140",
+        "garycentric",
+        "dstrome",
+        "beccarobins",
+        "padmagit77",
+        "aditisrivastava07"
+      ],
+      "searchScope": [
+        "Windows 10"
+      ]
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "win-whats-new",
+    "markdownEngineName": "markdig"
+  }
+}
